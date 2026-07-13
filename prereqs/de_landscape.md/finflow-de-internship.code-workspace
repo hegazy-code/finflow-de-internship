@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"driver": "DuckDB",
+				"name": "local_db",
+				"database": "${workspaceFolder:finflow-de-internship}/C:\\Users\\Yousssef\\OneDrive\\Desktop\\finflow-de-internship"
+			}
+		],
+		"sqltools.useNodeRuntime": true
+	}
+}
