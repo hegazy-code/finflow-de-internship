@@ -2,3 +2,31 @@ internship/
 __pycache__/
 *.pyc
 .pytest_cache/
+# Logs
+*.log
+
+# Data files (don't commit raw/large data to git)
+*.parquet
+*.csv
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Environment / secrets
+.env
+*.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
